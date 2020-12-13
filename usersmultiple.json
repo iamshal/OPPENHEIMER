@@ -1,0 +1,82 @@
+[
+  {
+    "natid": "101-1234567",
+    "name": "person1",
+    "gender": "F",
+    "salary": "1000",
+    "birthday": "16012003",
+    "tax": "100"
+  },
+  {
+    "natid": "102-1234567",
+    "name": "person2",
+    "gender": "F",
+    "salary": "2000",
+    "birthday": "20011986",
+    "tax": "200"
+  },
+  {
+    "natid": "103-1234567",
+    "name": "person3",
+    "gender": "F",
+    "salary": "3000",
+    "birthday": "24011971",
+    "tax": "300"
+  },
+  {
+    "natid": "104-1234567",
+    "name": "person4",
+    "gender": "F",
+    "salary": "438",
+    "birthday": "30011946",
+    "tax": "400"
+  },
+  {
+    "natid": "105-1234567",
+    "name": "person5",
+    "gender": "F",
+    "salary": "5000",
+    "birthday": "31011943",
+    "tax": "500"
+  },
+  {
+    "natid": "106-1234567",
+    "name": "person6",
+    "gender": "M",
+    "salary": "6000",
+    "birthday": "16012003",
+    "tax": "600"
+  },
+  {
+    "natid": "107-1234567",
+    "name": "person7",
+    "gender": "M",
+    "salary": "7000",
+    "birthday": "20011986",
+    "tax": "700"
+  },
+  {
+    "natid": "108-1234567",
+    "name": "person8",
+    "gender": "M",
+    "salary": "8000",
+    "birthday": "24011971",
+    "tax": "800"
+  },
+  {
+    "natid": "109-1234567",
+    "name": "person9",
+    "gender": "M",
+    "salary": "9000",
+    "birthday": "30011946",
+    "tax": "900"
+  },
+  {
+    "natid": "110-1234567",
+    "name": "person10",
+    "gender": "M",
+    "salary": "1500",
+    "birthday": "31011943",
+    "tax": "1000"
+  }
+ ]

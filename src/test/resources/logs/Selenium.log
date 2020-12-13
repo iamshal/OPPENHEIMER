@@ -1,0 +1,41 @@
+21:04:16,223 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://localhost:8080
+21:04:16,234 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+21:04:16,250 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+21:04:16,252 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+21:04:16,253 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+21:04:16,254 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+21:04:16,254 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+21:04:16,254 DEBUG DefaultClientConnection:274 - Sending request: GET /calculator/taxRelief HTTP/1.1
+21:04:16,255 DEBUG wire:73 -  >> "GET /calculator/taxRelief HTTP/1.1[\r][\n]"
+21:04:16,256 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+21:04:16,256 DEBUG wire:73 -  >> "Host: localhost:8080[\r][\n]"
+21:04:16,257 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+21:04:16,257 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)[\r][\n]"
+21:04:16,257 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:04:16,257 DEBUG wire:73 -  >> "[\r][\n]"
+21:04:16,257 DEBUG headers:278 - >> GET /calculator/taxRelief HTTP/1.1
+21:04:16,258 DEBUG headers:281 - >> Accept: */*
+21:04:16,259 DEBUG headers:281 - >> Host: localhost:8080
+21:04:16,259 DEBUG headers:281 - >> Connection: Keep-Alive
+21:04:16,259 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.1)
+21:04:16,259 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+21:04:16,277 DEBUG wire:73 -  << "HTTP/1.1 200 [\r][\n]"
+21:04:16,280 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+21:04:16,280 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+21:04:16,281 DEBUG wire:73 -  << "Date: Sun, 13 Dec 2020 13:04:16 GMT[\r][\n]"
+21:04:16,281 DEBUG wire:73 -  << "[\r][\n]"
+21:04:16,282 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 
+21:04:16,283 DEBUG headers:262 - << HTTP/1.1 200 
+21:04:16,283 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+21:04:16,283 DEBUG headers:265 - << Transfer-Encoding: chunked
+21:04:16,283 DEBUG headers:265 - << Date: Sun, 13 Dec 2020 13:04:16 GMT
+21:04:16,289 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+21:04:16,310 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+21:04:16,310 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+21:04:16,371 DEBUG wire:73 -  << "290[\r][\n]"
+21:04:16,371 DEBUG wire:87 -  << "[{"natid":"991-$$$$$$$","name":"dsasd","relief":"6105.00"},{"natid":"101-$$$$$$$","name":"person1","relief":"1400.00"},{"natid":"102-$$$$$$$","name":"person2","relief":"1940.00"},{"natid":"103-$$$$$$$","name":"person3","relief":"1850.00"},{"natid":"104-$$$$$$$","name":"person4","relief":"513.95"},{"natid":"105-$$$$$$$","name":"person5","relief":"725.00"},{"natid":"106-$$$$$$$","name":"person6","relief":"5400.00"},{"natid":"107-$$$$$$$","name":"person7","relief":"5040.00"},{"natid":"108-$$$$$$$","name":"person8","relief":"3600.00"},{"natid":"109-$$$$$$$","name":"person9","relief":"2972.70"},{"natid":"110-$$$$$$$","name":"person10","relief":"50.00"}]"
+21:04:16,372 DEBUG wire:73 -  << "[\r][\n]"
+21:04:16,372 DEBUG wire:73 -  << "0[\r][\n]"
+21:04:16,372 DEBUG wire:73 -  << "[\r][\n]"
+21:04:16,372 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@350d3f4d
+21:04:16,373 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely

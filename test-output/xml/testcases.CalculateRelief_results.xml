@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Calculate Relief"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.047">
+  <properties />
+  
+  
+            <testcase name="calculateRelief" time="0.005" classname="testcases.CalculateRelief" />
+                <testcase name="calculateRelief" time="0.006" classname="testcases.CalculateRelief" />
+                <testcase name="calculateRelief" time="0.001" classname="testcases.CalculateRelief" />
+                <testcase name="calculateRelief" time="0.003" classname="testcases.CalculateRelief" />
+                <testcase name="calculateRelief" time="0.004" classname="testcases.CalculateRelief" />
+                <testcase name="calculateRelief" time="0.007" classname="testcases.CalculateRelief" />
+                <testcase name="calculateRelief" time="0.002" classname="testcases.CalculateRelief" />
+                <testcase name="calculateRelief" time="0.011" classname="testcases.CalculateRelief" />
+                <testcase name="calculateRelief" time="0.002" classname="testcases.CalculateRelief" />
+                <testcase name="calculateRelief" time="0.006" classname="testcases.CalculateRelief" />
+      
+</testsuite>
